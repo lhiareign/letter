@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="design.css">
+  <title>To My Babycakes ❤️</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="envelope-wrapper">
+      <div class="envelope">
+        <div class="hearts" aria-hidden="true">
+  <span class="heart"></span>
+  <span class="heart"></span>
+  <span class="heart"></span>
+  <span class="heart"></span>
+  <span class="heart"></span>
+</div>
+        <div class="letter">
+          <div class="text">
+            <strong>Dear noel,</strong>
+            <p>
+              I made this just to show you how much I love you. 
+              I am very greatful to you have you by my side and you bring so much hope to my life.
+              I maybe stubborn sometimes but I know that you will always be there for me no matter what.
+              I hope that we will stay together forever and even through our ups and downs.
+              I love you so much ❤️
+            </p>
+          </div>
+        </div>
+        <div class="stamp"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+      envelope.classList.toggle('flap');
+    });
+  </script>
+</body>
+</html>
